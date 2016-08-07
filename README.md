@@ -11,12 +11,12 @@ Important
 =========
 This project is a work in progress, therefore you may come across some bugs and file structure issues. This has been noted and will be updated.
 
-The log in system is currently down due to database connection issues. Currently migrating the setup used to suit University's servers.
+The log in system is currently down due to database connection issues. Currently changing the setup used for University's servers.
 
 
 Installation
 ===========
-You can currently run the application using PHP's built in web server (PHP version 5.4 or greater).
+You can temporarily run the application using PHP's built in web server (PHP version 5.4 or greater).
 
 Locate to file directory, for example.
 
