@@ -1,0 +1,563 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+
+
+/* Top Banner */
+#masthead {
+  background: url(../img/belfast-main.jpg) no-repeat black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px !important;
+    
+}
+
+.hspace{
+
+padding: 25px;
+
+
+}
+
+
+@media (max-width: 768px){
+#masthead {
+  height: 600px !important;   
+}
+    
+  
+    
+}
+
+.banner 
+{
+   text-align: center;
+   padding-top: 15%;
+   padding-bottom: 15%;
+}
+
+.sub_banner{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    background-color: #29AAE1;
+}
+
+
+header h4 {
+  color: #ffffff;
+  line-height: 2em;
+}
+
+
+.highlight {
+padding-top: 4%;
+padding-bottom: 8%;  
+}
+
+
+
+article p
+{
+text-align: center;
+ line-height: 2em;
+}
+
+
+h4.Pacifico {   
+ font-family: Pacifico;
+ line-height: 2em;
+}
+
+.container{
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+
+#first, #second{
+height: 515px;
+background-color: #29AAE1;
+position: relative;
+overflow: hidden;
+}
+
+#first img{
+position: absolute;
+top: 0;
+min-width: 770px;
+}
+
+img.search{
+  right: -100px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+  -webkit-transition-property: opacity,right;
+  -moz-transition-property: opacity,right;
+  -o-transition-property: opacity,right;
+  transition-property: opacity,right;
+}
+
+img.search.active{
+  right: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+#first h2, #first p {
+color: #ffffff;
+}
+
+
+@media only screen and (max-width: 892px){
+    #panels > div p, #panels>div h2{
+        text-align: center;}
+    #iconmap {
+       display: none;
+    }
+    
+}
+
+#second {
+background-color: #ffffff;
+}
+
+#iconmap .map1{
+background: url(../img/map1.png) no-repeat;
+width: 1401px;
+height: 600px;
+position: absolute;
+left: -20px;
+}
+
+#iconmap .active .pin{
+  opacity: 1;
+}
+
+
+#iconmap .pin{
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url(../img/m-icons.png) no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+
+}
+
+#iconmap .first {
+background-position: 0 0;
+}
+#iconmap .second {
+background-position: 0 -60px;
+}
+#iconmap .third {
+background-position: 0 -120px;
+}
+
+
+#third {
+    background-color: #B5D571;
+    height: 540px;
+}
+
+section.arrow.onscreen{
+  opacity: 1;
+}
+
+section .arrow{
+   opacity: 0;
+  -webkit-transition-duration: 3s;
+  -moz-transition-duration: 3s;
+  -o-transition-duration: 3s;
+  transition-duration: 3s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.valign{
+height: 400px;
+display: table;
+width: 100%;
+table-layout: fixed;
+}
+
+.valign>div{
+width: 100%;
+}
+
+#third h2 {
+    color: #ffffff;
+}
+
+
+.circle-btn {
+  height: 180px !important;
+  width: 180px !important;
+  margin: 20px 0;
+  margin-top: 20px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+  border-radius: 90px;
+}
+
+.circle-btn a {
+  line-height: 200px;
+  font-size: 23px;
+  font-size: 1.4375rem;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+.wrapper {
+    padding: 75px 20px 30px 20px;
+}
+
+
+
+/*===================Header Style for map and direction page==========*/
+
+
+
+/*============search bar=========================*/
+
+#search-m .search input[type=text] {
+
+
+  width: 100%;
+  color: #999999;
+  font-size: 30px;
+  line-height: 43px;
+  position: relative;
+  padding: 10px!important;
+  background-color: #ffffff;
+  border: 0px;
+  transition: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+  -o-box-shadow: none!important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+
+
+}
+
+
+/*==========form-setup==========*/ 
+
+#search-map #form .first-p {
+    color: #74AFAD;
+}
+
+.picker {
+    
+    display: list-item;
+    
+}
+
+.picker select {
+    
+ font-size: 14px;
+ padding-left: 3px; !important
+}
+
+
+section .first-r {
+  margin-bottom: 0;
+  padding: 5%;
+}
+
+
+
+
+/*===============map layout======*/
+
+#search-map {
+
+    margin: 0 auto;
+
+}
+
+
+#main-map .google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+
+    }
+
+.google-maps #map-canvas {
+    
+       position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+
+
+
+#map-canvas img {
+    max-width: none;
+}
+
+
+
+/*==========infowindow-setup==========*/
+
+
+p.window{
+
+
+font-size:14px;
+
+
+
+}
+
+
+/*==========moreinfomodal-setup==========*/
+
+#modal.more_info {
+    
+    background-color: #ffffff;
+    
+}
+
+
+ul.menu{
+    list-style-type:none;
+    background: #EFEFEF;
+    margin:0;
+    overflow:hidden;
+}
+
+ul.menu li{
+    float:left;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+ul.menu li a{
+}
+
+ul.menu li a:hover{
+    color: #29ABE2;
+}
+
+
+/*---------register Page hover image------*/
+
+/*
+.modal#modal {
+    
+    text-align: center;
+    
+}
+*/
+
+
+/*--------------Account page-----------------*/
+
+
+.account_banner{
+padding-top: 5%;
+padding-bottom: 5%;
+background: #f2f2f2;
+}
+
+
+.modal>.delete{
+background-color: #ffffff;
+}
+
+#account-form p {
+
+text-align: right;
+
+}
+
+
+p.field {
+    margin-bottom: 30px;
+}
+
+.account-title{
+    background: #B5D571;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.account-title h3{
+    color: #fff;
+}
+
+.ve_store{
+  background: #f2f2f2;
+  
+}
+/*-------------------Password strength(strength.js) checker by @aaronlumsden -----*/
+
+@charset "utf-8";
+/* CSS Document */
+
+#register-form .npass{
+background:#ffffff;
+-webkit-appearance: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+-webkit-transition: border .25s linear, color .25s linear;
+-moz-transition: border .25s linear, color .25s linear;
+-o-transition: border .25s linear, color .25s linear;
+transition: border .25s linear, color .25s linear;
+-webkit-backface-visibility: hidden;
+width:100%;
+}
+
+
+.strength_meter{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 43px;
+    z-index:-1;
+    border-radius:5px;
+    padding-right:13px;
+	
+}
+
+.button_strength {
+text-decoration: none;
+color: #FFF;
+font-size: 13px;
+}
+
+
+.strength_meter div{
+width:0%;
+height: 45px;
+color: #000;
+line-height: 43px;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+padding-right: 0px;
+border-radius:5px;
+}
+
+.strength_meter div p{
+position: absolute;
+top: 45px;
+right: 0px;
+color: #FFF;
+font-size:13px;
+}
+
+.veryweak{
+	background-color: #FFA0A0;
+border-color: #F04040!important;
+    width:25%!important;
+}
+.weak{
+background-color: #FFB78C;
+border-color: #FF853C!important;
+width:50%!important;
+
+}
+.med{
+background-color: #FFEC8B;
+border-color: #FC0!important;
+width:75%!important;
+
+}
+.strong{
+background-color: #C3FF88;
+border-color: #8DFF1C!important;
+width:104%!important;
+
+}
+
+.hover {
+    background:red; 
+    float:left;
+    position:relative
+}
+
+.h-info{
+    background-color: rgba(0,0,0,0.75);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.3s linear;
+    text-shadow: #000 1px 1px 0;
+
+}
+.hover:hover > .h-info{
+   display: block;
+   opacity: 1.0;
+}
+
+button.icon-btn:hover{
+
+    color: #ffffff;
+    background: #ca3838;
+
+
+
+}
+
+.icon-btn {
+  cursor:pointer;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #555555;
+  border: 1px solid #f2f2f2;
+  height: 80px !important;
+  width: 80px !important;
+  margin-left: 120px;
+  margin-top: 35px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+  border-radius: 90px;
+    font-size: 30px;
+}

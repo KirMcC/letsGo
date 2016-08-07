@@ -1,0 +1,234 @@
+/*============css reset============*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+/*===========Layout setup==========*/
+
+
+html
+	{
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+
+body {
+
+	background-color: #ffffff;
+	height: 100%;
+    margin: 0; 
+    padding: 0;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif, 'open_sanslight_italic';
+	line-height: 1.2;
+}
+
+h1, h2 {
+
+		font-size: 1.0em;
+		font-weight: 300;
+		font-style: italic;
+		color: #808080;
+    	line-height: 30px;
+
+
+
+}
+
+p{
+
+	line-height: 30px;
+
+}
+
+
+
+
+/*============Page Layout=========*/
+
+
+#container
+{
+    width:100%;
+    
+}
+
+
+#wrapper
+
+{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header
+{
+    
+    
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+
+
+
+/*==========form-setup==========*/ 
+
+
+label
+{
+    
+    font-size: 1.5em;
+    
+}
+
+#form-section
+
+{
+    
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #eeeeee;
+    
+}
+
+
+.form-start select
+
+{
+    margin-right: 40px;
+  
+}
+
+
+/*===============map layout======*/
+
+#main-map
+
+{
+
+    padding-bottom: 20px;
+    
+}
+
+
+#map-canvas {
+    
+    height: 550px;
+    width: 1100px;
+
+
+}
+
+
+
+ .controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #pac-input {
+        background-color: #fff;
+        padding: 0 11px 0 13px;
+        width: 400px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        text-overflow: ellipsis;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+        margin-left: -1px;
+        padding-left: 14px;  /* Regular padding-left + 1. */
+        width: 401px;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+    
+
+
+
+ul.menu{
+    list-style-type:none;
+    background: grey;
+    margin:0;
+    overflow:hidden;
+}
+
+ul.menu li{
+    background: #333333;
+    float:left;
+    padding: 5px;
+    margin-right:2px;
+}
+
+ul.menu li a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+ul.menu li a:hover{
+    text-decoration: none;
+    background-color: #e1e1e1;
+    font-size: 11px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
